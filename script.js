@@ -1,4 +1,3 @@
-//complete this code
 // Rectangle class
 class Rectangle {
   constructor(width, height) {
@@ -30,4 +29,11 @@ class Square extends Rectangle {
   }
 
   // Method to calculate perimeter of square
-  getPerimete
+  getPerimeter() {
+    return this.width * 4;
+  }
+}
+
+// Do not change the code below this line
+window.Rectangle = Rectangle;
+window.Square = Square;
